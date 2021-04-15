@@ -3,7 +3,7 @@ var http = require('http')
 var fs = require('fs')
 
 
-fs.mkdir('/Users/NDIBE CHINONSO/Desktop/Zuri-server/result', { recursive: true }, (err) => {
+fs.mkdir('./result', { recursive: true }, (err) => {
     if (err) throw err;
 })
 
